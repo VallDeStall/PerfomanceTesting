@@ -1,0 +1,18 @@
+{
+  "simulation": "demovlad.Demo",
+  "simulationId": "demo",
+  "start": 1603639434149,
+  "description": "",
+  "scenarios": ["Demo"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "percentage of successful events",
+  "condition": "is greater than",
+  "expectedValues": [100.0],
+  "result": false,
+  "message": "Global: percentage of successful events is greater than 100.0",
+  "actualValue": [100.0]
+}
+  ]
+}
